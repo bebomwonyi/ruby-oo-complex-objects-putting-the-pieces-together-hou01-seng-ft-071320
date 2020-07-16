@@ -4,5 +4,7 @@ class Shoe
   end
   attr_accessor :color ,:size ,:matrerial ,:condition
   attr_reader :brand
-  
+  def cobble
+    
+  end
 end
