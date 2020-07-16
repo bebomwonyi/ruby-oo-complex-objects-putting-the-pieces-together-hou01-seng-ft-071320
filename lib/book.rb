@@ -5,10 +5,16 @@ class Book
   def title
     @title
   end
-  def author=(author)
-    @author = author
+  def author=(a)
+    @author = a
   end
   def author
     @author
+  end
+  def page_count(n)
+    @page_count = n
+  end
+  def page_count
+    @page_count
   end
 end
